@@ -14,7 +14,7 @@ public class DevopsApplication {
     @GetMapping("/hello")
     public String sayHello(Model model) {
         model.addAttribute("message", "Hello, World!");  // Passing data to the template
-        return "hello";  // Return the hello.html template
+        return "hello cluster!";  // Return the hello.html template
     }
 
     public static void main(String[] args) {
